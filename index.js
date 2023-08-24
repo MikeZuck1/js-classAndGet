@@ -4,7 +4,7 @@ import './style.css';
 const appDiv = document.getElementById('app');
 appDiv.innerHTML;
 
-const useMedicalDepartment  = function() {
+const useMedicalDepartment = function() {
   class Medical {
     constructor(surgeon, nurse, medecin){
       this._surgeon = surgeon; 
@@ -32,8 +32,7 @@ const useMedicalDepartment  = function() {
   );
   
   console.log(newMedicalDepartment);
-  // should print : 
-  // 'Surgeon - Dep. 3', 'nurse - Dep. 10', 'medecin - Dep. 33'
+  // should print : 'Surgeon - Dep. 3', 'nurse - Dep. 10', 'medecin - Dep. 33'
 }
-useMedicalDepartment(); // call the function 
+useMedicalDepartment(); // call the function useMedicalDepartment(); 
 
